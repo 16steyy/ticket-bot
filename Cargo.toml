@@ -1,6 +1,12 @@
 [package]
 name = "ticket-bot"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+poise = "0.6"
+serenity = { version = "0.12", features = ["framework", "standard_framework", "rustls_backend"] }
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"

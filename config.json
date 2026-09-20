@@ -1,0 +1,55 @@
+{
+  "guild_id": 123456789012345678,
+  "category_channel_id": 123456789012345678,
+  "support_role_id": 123456789012345678,
+  "categories": {
+    "launcher": {
+      "label": "Лаунчер",
+      "description": "Проблемы с загрузкой, авторизацией или интерфейсом",
+      "questions": [
+        {
+          "id": "os",
+          "label": "Ваша ОС (Windows / Linux / macOS)?",
+          "placeholder": "Например: Windows 11",
+          "paragraph": false
+        },
+        {
+          "id": "details",
+          "label": "Опишите проблему",
+          "placeholder": "Что происходит при запуске?",
+          "paragraph": true
+        }
+      ]
+    },
+    "game": {
+      "label": "Запуск игры",
+      "description": "Краши, ошибки Java, проблемы с модами",
+      "questions": [
+        {
+          "id": "version",
+          "label": "Версия игры и загрузчик",
+          "placeholder": "1.20.1 Fabric",
+          "paragraph": false
+        },
+        {
+          "id": "crash_log",
+          "label": "Ссылка на лог краша или текст ошибки",
+          "placeholder": "https://paste.ee/...",
+          "paragraph": true
+        }
+      ]
+    },
+    "other": {
+      "label": "Прочее",
+      "description": "Вопросы по аккаунтам или сотрудничеству",
+      "questions": [
+        {
+          "id": "topic",
+          "label": "Тема обращения",
+          "placeholder": "Коротко опишите суть",
+          "paragraph": false
+        }
+      ]
+    }
+  }
+}
